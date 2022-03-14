@@ -1,0 +1,1565 @@
+/* -------------------------------- WEB FONTS CSS -------------------------------- */
+@-zs-include webfonts(Josefin Slab:400, 600, 700/lato:400, 700);
+/* -------------------------------- PRESET CSS -------------------------------- */
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, li {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+body {
+ background-attachment:scroll;
+ background-color:#f3f3f3;
+ background-image:url(images/bodypattern.png);
+ background-position:0 0;
+ background-repeat:repeat;
+ background-size:auto;
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:14px;
+ color:#777777;
+}
+h1 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:30px;
+color:#333333;
+}
+h2 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:28px;
+color:#333333;
+}
+h3 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:26px;
+color:#333333;
+}
+h4 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:24px;
+color:#333333;
+}
+h5 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:22px;
+color:#333333;
+}
+h6 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:20px;
+color:#333333;
+}
+a {
+ color:#cd586b;
+ text-decoration:none;
+}
+a:hover {
+ text-decoration:none;
+ color:#cd586b;
+}
+p {
+    line-height: 1.7;
+}
+a img {
+    border: 0 solid
+}
+:focus {
+    outline: none;
+}
+ul, ol {
+    padding: 0 0 0 25px;
+}
+ol {
+    padding: 0 0 0 25px;
+}
+li {
+    padding: 5px 0;
+}
+hr {
+    border: 0;
+    border-top: 1px solid #E3E3E3;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+th {
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:14px;
+ color:#333333;
+ background:#f7f7f7;
+ border-width:1px;
+ border-style:solid;
+ border-color:#f1f1f1;
+ padding:10px;
+    font-weight: normal;
+}
+td {
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:14px;
+ color:#777777;
+ background:#ffffff;
+ border-width:1px;
+ border-style:solid;
+ border-color:#f1f1f1;
+ padding:10px;
+}
+/* -------------------------------- COMMON USAGE CSS -------------------------------- */
+.floatLeft {
+    float: left;
+}
+.floatRight {
+    float: right;
+}
+.clearDiv {
+    clear: both;
+}
+.themeWidth {
+    width: 960px;
+    margin: 0 auto;
+}
+/* -------------------------------- THEME HEADER AREA CSS -------------------------------- */
+.themeHeaderArea {
+    padding: 0 0 35px;
+}
+.themeSocialIconArea {
+    height: 30px;
+    padding-top: 5px;
+}
+/* -------------------------------- THEME BRANDING AREA CSS -------------------------------- */
+.themeBrandingContainer {
+    display: table;
+    border: 0 solid;
+    width: 100%;
+}
+.tableRow {
+    display: table-row;
+}
+.tableCell {
+    display: table-cell
+}
+.themeLogoOuterContainer {
+    width: 1%;
+}
+.themeLogoArea {
+    padding-right: 15px;
+}
+.themeSitenameCaptionOuterContainer {
+    vertical-align: middle;
+    height: 100%
+}
+.themeSitenameCaptionInnerContainer {
+    height: 100%;
+    vertical-align: middle;
+}
+.themeSitenameCaptionContainer {
+    vertical-align: middle;
+    height: 100%;
+}
+.themeSitename {
+    white-space: nowrap;
+ font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+ font-size:36px;
+ color:#333333;
+    font-weight: 600;
+}
+.themeCaption {
+    white-space: nowrap;
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:16px;
+ color:#777777;
+    font-weight: normal;
+}
+/* -------------------------------- THEME CONTENT AREA CSS -------------------------------- */
+.themeContentContainer {
+background-color:#ffffff;
+ background-image:none;
+ background-position:0 0;
+ background-repeat:repeat;
+ background-attachment:scroll;
+ background-size:auto;
+ box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.17), 0px 0px 0px 0px transparent inset;
+ -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.17), 0px 0px 0px 0px transparent inset;
+ -o-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.17), 0px 0px 0px 0px transparent inset;
+ -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.17), 0px 0px 0px 0px transparent inset;
+ border-radius: 0;
+ -moz-border-radius:0;
+ -webkit-border-radius:0;
+ -o-border-radius:0;
+ border-width: 0;
+ border-style:none;
+ border-color:transparent;
+}
+/* -------------------------------- THEME NAVIGATION AREA CSS -------------------------------- */
+.themeNavigationArea {
+    width: 75%;
+    float: left;
+}
+.themeNavigationContainer {
+ background-color:transparent;
+ background-image:none;
+ background-repeat:repeat-x;
+ background-position:left top;
+    border-bottom: 2px solid #efefef;
+    height: 58px;
+    margin-bottom: 10px;
+}
+#navigation ul {
+    list-style: none;
+    padding: 0 0 0 40px;
+    margin: 0;
+}
+#navigation li {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+#navigation li a {
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ color:#777777;
+ font-size:16px;
+    text-transform: capitalize;
+    float: left;
+    padding: 0 47px 0 0px;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 3.6;
+    display: block;
+    border-bottom: 2px solid transparent;
+}
+#navigation li.selected {
+ background-color:transparent;
+ background-image:none;
+ background-repeat:repeat;
+ background-position:left top;
+}
+#navigation li.selected a, #navigation li:hover a, #navigation li.active a {
+ color:#C4324A;
+    border-bottom: 2px solid #c4324a;
+}
+#navigation li a span {
+    float: left;
+}
+#navigation li.navArrow a em, #navigation li:hover.navArrow a em, #navigation li.active.navArrow a em, #navigation li.selected.navArrow a em {
+    background: url(images/navArrow.png) no-repeat scroll 0 0;
+    display: block;
+    float: left;
+    height: 8px;
+    width: 7px;
+    margin: 30px 0 0 10px;
+}
+/* -------------------------------- SUBMENU AREA CSS -------------------------------- */
+.submenu {
+    width: 200px;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+ background-color:#efefef;
+background-image:none;
+background-position:top left;
+background-repeat:repeat;
+ border-width:0;
+border-style:none;
+border-color: transparent;
+ border-radius:0;
+-moz-border-radius:0;
+-webkit-border-radius:0;
+-o-border-radius:0;
+    -webkit-transition: height 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+    -moz-transition: height 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+    -o-transition: height 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+    -ms-transition: height 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+    transition: height 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+}
+.submenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1px;
+    line-height: 0;
+}
+.submenu li {
+    display: block;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+.submenu li a {
+ color:#777777;
+ font-size:12px;
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    line-height: 1.7;
+    padding: 5px 0;
+    float: left;
+    cursor: pointer;
+}
+.submenu li a:hover {
+ color:#333333;
+ background-color:#f7f7f7;
+background-image:none;
+background-position:top left;
+background-repeat:repeat;
+}
+.submenu li a span {
+    width: 165px;
+    float: left;
+    padding-left: 10px;
+    word-wrap: break-word;
+}
+.submenu li.navArrow a em, .submenu li:hover.navArrow a em {
+    background: url(images/subnavArrow.png) left top no-repeat;
+    float: left;
+    height: 10px;
+    width: 10px;
+    margin-top: 8px;
+    margin-left: 9px;
+}
+.submenu li:hover.navArrow a em {
+    background: url(images/subnavArrowHover.png) left top no-repeat;
+}
+/* -------------------------------- THEME SEARCH BOX CSS -------------------------------- */
+.themeSearchContainer {
+    margin: 15px 20px 0 0;
+    float: right;
+}
+.themeSearchBox {
+    width: 200px;
+    height: 30px;
+    position: relative;
+    border-top: 1px solid #eaeaea;
+    background: #f7f7f7;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.themeSearchBox input[type=text] {
+    background: transparent;
+    width: 155px;
+    height: 30px;
+    border: 0 none;
+    outline: none;
+    line-height: 30px;
+    font-family: 'Lato', Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    color: #777777;
+    padding: 0 10px;
+}
+.themeSearchBox input[type=submit] {
+    background: url(images/searchicon.png) center center no-repeat;
+    width: 40px;
+    height: 28px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: 0 none;
+    cursor: pointer;
+}
+.themeContentAreaContainer {
+    padding: 20px;
+}
+/* -------------------------------- THEME BREADCRUMB AREA CSS -------------------------------- */
+.themeBreadcrumb {
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.themeBreadcrumb span {
+    padding: 0 10px;
+}
+.themeBreadcrumb p {
+    word-wrap: break-word;
+}
+.themeContentArea {
+    width: 70%;
+    min-height: 400px;
+    height: auto !important;
+    height: 400px;
+}
+/* -------------------------------- THEME SIDEBAR AREA CSS -------------------------------- */
+.themeSidebarArea {
+    width: 30%;
+}
+.themeSidebarAreaInner {
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:14px;
+ color:#777777;
+background-color:#f7f7f7;
+ background-image:none;
+ background-position:0 0;
+ background-repeat:repeat;
+ background-attachment:scroll;
+ background-size:auto;
+ box-shadow: 0px 0px 0px 0px transparent, 0px 0px 0px 0px transparent inset;
+ -webkit-box-shadow: 0px 0px 0px 0px transparent, 0px 0px 0px 0px transparent inset;
+ -moz-box-shadow: 0px 0px 0px 0px transparent, 0px 0px 0px 0px transparent inset;
+ -o-box-shadow: 0px 0px 0px 0px transparent, 0px 0px 0px 0px transparent inset;
+ border-width: 0px;
+ border-style:none;
+ border-color: transparent;
+ border-radius: 0px;
+ -moz-border-radius:0px;
+ -webkit-border-radius:0px;
+ -o-border-radius:0px;
+    min-height: 300px;
+    height: auto !important;
+    height: 300px;
+    margin-left: 20px;
+    padding: 20px;
+}
+.themeSidebarAreaInner h1 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:30px;
+color:#333333;
+}
+.themeSidebarAreaInner h2 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:28px;
+color:#333333;
+}
+.themeSidebarAreaInner h3 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:26px;
+color:#333333;
+}
+.themeSidebarAreaInner h4 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:24px;
+color:#333333;
+}
+.themeSidebarAreaInner h5 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:22px;
+color:#333333;
+}
+.themeSidebarAreaInner h6 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:20px;
+color:#333333;
+}
+.themeSidebarAreaInner a {
+ color:#cd586b;
+ text-decoration:none;
+}
+.themeSidebarAreaInner a:hover {
+ text-decoration:none;
+ color:#cd586b;
+}
+.themeSidebarAreaInner form ul li label, .themeSidebarAreaInner form ul li div {
+    width: auto;
+    float: none;
+    padding: 5px 0;
+}
+.themeSidebarAreaInner form ul li label {
+    width: auto;
+    text-align: left;
+    padding-right: 0;
+}
+.themeSidebarAreaInner form li span input[type=text], .themeSidebarAreaInner form li span textarea, .themeSidebarAreaInner form li span select {
+    width: 160px;
+    background: #ffffff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.themeSidebarAreaInner form li span select, .themeSidebarAreaInner .zs-tabs-accordion-content form li span select {
+    width: 173px;
+}
+.themeSidebarAreaInner .zs-tabs-accordion-content form li span input[type="text"], .themeSidebarAreaInner .zs-tabs-accordion-content form li span textarea, .themeSidebarAreaInner .zs-tabs-accordion-content form li span select {
+    width:160px;
+    background: #F5F5F5;
+}
+.themeSidebarAreaInner form li input[type=submit], .themeSidebarAreaInner form li input[type=reset] {
+    padding: 6px 10px;
+}
+.themeSidebarAreaInner form li input[type=reset] {
+    background: #EBEAEA;
+}
+.themeSidebarAreaInner .newsletter-input-field {
+    background: #ffffff;
+}
+.themeSidebarAreaInner th {
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:14px;
+ color:#333333;
+ background:#f7f7f7;
+ border-width:1px;
+ border-style:solid;
+ border-color:#f1f1f1;
+ padding:10px;
+    font-weight: normal;
+}
+.themeSidebarAreaInner td {
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:14px;
+ color:#777777;
+ background:#ffffff;
+ border-width:1px;
+ border-style:solid;
+ border-color:#f1f1f1;
+ padding:10px;
+}
+.themeSidebarAreaInner .zs-highlight-box {
+ background-color: #da4a57;
+ background-image: none;
+ background-image: none, -moz-linear-gradient(bottom, transparent, transparent);
+ background-image: none, -webkit-linear-gradient(bottom, transparent, transparent);
+ background-image: none, -o-linear-gradient(bottom, transparent, transparent);
+ background-position: top left;
+ background-repeat: repeat;
+ box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.20), 0px 0px 0px 5px #FFFFFF inset;
+ -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.20), 0px 0px 0px 5px #FFFFFF inset;
+ -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.20), 0px 0px 0px 5px #FFFFFF inset;
+ -o-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.20), 0px 0px 0px 5px #FFFFFF inset;
+ border-width: 0;
+ border-style:none;
+ border-color:transparent;
+ border-radius: 0;
+ -moz-border-radius:0;
+ -webkit-border-radius:0;
+ -o-border-radius:0;
+ padding: 10px;
+ margin: 5px;
+    min-height: 200px;
+font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:14px;
+ color:#FF909A;
+}
+.themeSidebarAreaInner .zs-highlight-box h1 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:30px;
+color:#FFFFFF;
+}
+.themeSidebarAreaInner .zs-highlight-box h2 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:28px;
+color:#FFFFFF;
+}
+.themeSidebarAreaInner .zs-highlight-box h3 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:24px;
+color:#FFFFFF;
+}
+.themeSidebarAreaInner .zs-highlight-box h4 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:20px;
+color:#FFFFFF;
+}
+.themeSidebarAreaInner .zs-highlight-box h5 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:18px;
+color:#FFFFFF;
+}
+.themeSidebarAreaInner .zs-highlight-box h6 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:16px;
+color:#FFFFFF;
+}
+.themeSidebarAreaInner .zs-highlight-box a {
+ text-decoration:none;
+ color:#F7B713;
+}
+.themeSidebarAreaInner .zs-highlight-box a:hover {
+text-decoration:none;
+color:#F7B713;
+}
+.themeSidebarAreaInner .zs-highlight-box form li span input[type=text], .themeSidebarAreaInner .zs-highlight-box form li span textarea, .themeSidebarAreaInner .zs-highlight-box form li span select {
+    background: #E55360;
+    border: 1px solid #E9515F;
+    color: #FF909A;
+    width: 120px;
+}
+.themeSidebarAreaInner .zs-highlight-box form li span select {
+    width: 133px;
+}
+.themeSidebarAreaInner .zs-highlight-box form li input[type=submit], .themeSidebarAreaInner .zs-highlight-box form li input[type=reset] {
+    padding: 8px 15px;
+    color: #fff;
+}
+.themeSidebarAreaInner .zs-highlight-box form li input[type=reset] {
+    color: #FF909A;
+}
+.themeSidebarAreaInner .zs-highlight-box hr {
+    border-top-color: #BE424D;
+}
+.themeSidebarAreaInner .zs-highlight-box .newsletter-input-field {
+    width:160px;
+    background: #E55360;
+    border: 1px solid #E9515F;
+    color: #FFBAC1;
+}
+.themeSidebarAreaInner .zs-highlight-box .newsletter-form input[type="text"]::-moz-placeholder {
+    color:#FFBAC1;
+}
+.themeSidebarAreaInner .zs-highlight-box .newsletter-form  input[type="text"]::-webkit-input-placeholder{
+    color:#FFBAC1;
+}
+.themeSidebarAreaInner .zs-highlight-box .newsletter-form  input[type="text"]:-ms-input-placeholder {
+    color:#FFBAC1;
+}
+.themeSidebarAreaInner .zs-highlight-box .newsletter-layout-3 .newsletter-form {
+    width: 160px;
+}
+.themeSidebarAreaInner .zs-tabs-accordion-content .newsletter-input-field {
+    width:160px;
+    background: #F5F5F5;
+}
+.themeSidebarAreaInner .zs-tabs-accordion-content .newsletter-layout-3 .newsletter-form {
+    width: 160px;
+}
+.themeSidebarAreaInner .zs-highlight-box th {
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:14px;
+ color:#EBEBEB;
+ background:#CA3240;
+ border-width:1px;
+ border-style:solid;
+ border-color:#C22C3A;
+ padding:10px;
+    font-weight: normal;
+}
+.themeSidebarAreaInner .zs-highlight-box td {
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:14px;
+ color:#777777;
+ background:#ffffff;
+ border-width:1px;
+ border-style:solid;
+ border-color:#EBEBEB;
+ padding:10px;
+}
+.themeSidebarAreaInner .zs-highlight-box form li input[type=submit], .themeSidebarAreaInner .zs-highlight-box form li input[type=reset], .themeSidebarAreaInner .zs-highlight-box button {
+    background-color: #CA3240;
+}
+.themeSidebarAreaInner .zs-highlight-box form .dateinvoker {
+    background-color: transparent;
+}
+.themeSidebarAreaInner .zs-highlight-box h3.newsletter-heading {
+    color:#FFFFFF;
+}
+.themeSidebarAreaInner .zs-highlight-box .newsletter-desc {
+    color:#FF909A;
+}
+/* ------------------------------------ TEXT HIGHLIGHT CSS ------------------------------------------------*/
+.themeSidebarAreaInner .zs-text-light-color {
+color:#C1C1C1
+}
+.themeSidebarAreaInner .zs-text-highlight-color {
+color:#333333
+}
+.themeSidebarAreaInner .zs-highlight-box .zs-text-light-color {
+color:#C1C1C1
+}
+.themeSidebarAreaInner .zs-highlight-box .zs-text-highlight-color {
+color:#FFFFFF
+}
+/*--------------------- THEME SIDEBAR TABS ACCORDION AREA CSS ---------------------*/
+.themeSidebarAreaInner .zs-tabs ul, .themeSidebarAreaInner .zs-highlight-box .zs-tabs ul {
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+    border-bottom: 3px solid #C4324A;
+}
+.themeSidebarAreaInner .zs-tabs ul li, .themeSidebarAreaInner .zs-highlight-box .zs-tabs ul li {
+    float: left;
+    margin: 0;
+    padding: 0px;
+}
+.themeSidebarAreaInner .zs-tabs ul li div, .themeSidebarAreaInner .zs-highlight-box .zs-tabs ul li div {
+    padding: 0 20px;
+    position: relative;
+    color: #777777;
+    line-height: 3.2;
+    cursor: pointer;
+}
+.themeSidebarAreaInner .zs-tabs ul li.selected, .themeSidebarAreaInner .zs-highlight-box .zs-tabs ul li.selected {
+    background: #C4324A;
+    border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+}
+.themeSidebarAreaInner .zs-tabs ul li.selected div, .themeSidebarAreaInner .zs-highlight-box .zs-tabs ul li.selected div {
+    color: #ffffff;
+}
+.themeSidebarAreaInner .zs-tabs-accordion-content, .themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content {
+    background: #FFF;
+    padding: 15px;
+    display: none;
+    color: #777777;
+    margin-bottom: 2px;
+    min-height: 70px;
+    height: auto !important;
+    height: 70px;
+}
+.themeSidebarAreaInner .zs-accordion, .themeSidebarAreaInner .zs-highlight-box .zs-accordion {
+    background: #EAEAEA;
+    color: #777777;
+    padding: 12px;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    margin-bottom: 2px;
+}
+.themeSidebarAreaInner .zs-accordion.selected, .themeSidebarAreaInner .zs-highlight-box .zs-accordion.selected {
+    background: #C4324A;
+    color: #ffffff;
+}
+/*---------------------------------- THEME SIDEBAR AREA HIGHLIGHT BOX TABS ACCORDION AREA CSS START ------------------------------------*/
+.themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content {
+    padding: 10px;
+}
+.themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content h1, .themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content h2, .themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content h3, .themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content h4, .themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content h5, .themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content h6 {
+    color: #333333;
+}
+.themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content a, .themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content a:hover {
+    color: #cd586b;
+}
+.themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content hr {
+    border-top: 1px solid #efefef;
+}
+.themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content th {
+    background: #ffffff;
+    border-color: #e6e6e6;
+    color: #777777;
+}
+.themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content td {
+    background: transparent;
+    border-color: #e6e6e6;
+    color: #777777;
+}
+.themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content form li span input[type="text"], .themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content form li span textarea, .themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content form li span select {
+    background: #F4F4F4;
+    color: #777777;
+    width: 100px;
+    border: 0px;
+}
+.themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content form li span select {
+    width: 113px;
+}
+.themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content form li input[type="reset"] {
+    background: #f7f7f7;
+}
+.themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content form li input[type="submit"], .themeSidebarAreaInner .zs-highlight-box .zs-tabs-accordion-content form li input[type="reset"] {
+    padding: 8px 10px;
+}
+/* -------------------------------- THEME FOOTER AREA CSS -------------------------------- */
+.themeFooterArea {
+background-color:transparent;
+ background-image:none;
+ background-position:0 0;
+ background-repeat:repeat-X;
+ background-attachment:scroll;
+ background-size:auto;
+ box-shadow: 0px 0px 0px 0px  transparent, 0px 0px 0px 0px transparent inset;
+-moz-box-shadow: 0px 0px 0px 0px  transparent, 0px 0px 0px 0px transparent inset;
+-webkit-box-shadow: 0px 0px 0px 0px  transparent, 0px 0px 0px 0px transparent inset;
+-o-box-shadow: 0px 0px 0px 0px  transparent, 0px 0px 0px 0px transparent inset;
+border-width:2px 0 0;
+ border-style:solid;
+ border-color:#efefef;
+ border-radius: 0px;
+ -moz-border-radius:0px;
+ -webkit-border-radius:0px;
+ -o-border-radius:0px;
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:14px;
+ color:#777777;
+    min-height: 150px;
+    height: auto !important;
+    height: 150px;
+    padding: 30px 20px;
+    margin-bottom: 80px;
+}
+.themeFooterArea h1 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:30px;
+color:#333333;
+}
+.themeFooterArea h2 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:28px;
+color:#333333;
+}
+.themeFooterArea h3 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:26px;
+color:#333333;
+}
+.themeFooterArea h4 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:24px;
+color:#333333;
+}
+.themeFooterArea h5 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:22px;
+color:#333333;
+}
+.themeFooterArea h6 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:20px;
+color:#333333;
+}
+.themeFooterArea a {
+ color:#cd586b;
+ text-decoration:none;
+}
+.themeFooterArea a:hover {
+ text-decoration:none;
+ color:#cd586b;
+}
+.themeFooterArea th {
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:14px;
+ color:#333333;
+ background:#f7f7f7;
+ border-width:1px;
+ border-style:solid;
+ border-color:#f1f1f1;
+ padding:10px;
+    font-weight: normal;
+}
+.themeFooterArea td {
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:14px;
+ color:#777777;
+ background:#ffffff;
+ border-width:1px;
+ border-style:solid;
+ border-color:#f1f1f1;
+ padding:10px;
+}
+/* -------------------------------- THEME HIGHLIGHT BOX AREA CSS -------------------------------- */
+.themeFooterArea .zs-highlight-box {
+ background-color: #7dda4a;
+ background-image: none;
+ background-image: none, -moz-linear-gradient(bottom, transparent, transparent);
+ background-image: none, -webkit-linear-gradient(bottom, transparent, transparent);
+ background-image: none, -o-linear-gradient(bottom, transparent, transparent);
+ background-position: top left;
+ background-repeat: repeat;
+ box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.20), 0px 0px 0px 5px #FFFFFF inset;
+ -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.20), 0px 0px 0px 5px #FFFFFF inset;
+ -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.20), 0px 0px 0px 5px #FFFFFF inset;
+ -o-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.20), 0px 0px 0px 5px #FFFFFF inset;
+ border-width: 0;
+ border-style:none;
+ border-color:transparent;
+ border-radius: 0;
+ -moz-border-radius:0;
+ -webkit-border-radius:0;
+ -o-border-radius:0;
+ padding: 10px;
+ margin: 5px;
+    min-height: 200px;
+font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:14px;
+ color:#4E7727;
+}
+.themeFooterArea .zs-highlight-box h1 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:30px;
+color:#FF4A4A;
+}
+.themeFooterArea .zs-highlight-box h2 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:28px;
+color:#FF4A4A;
+}
+.themeFooterArea .zs-highlight-box h3 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:24px;
+color:#FF4A4A;
+}
+.themeFooterArea .zs-highlight-box h4 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:20px;
+color:#FF4A4A;
+}
+.themeFooterArea .zs-highlight-box h5 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:18px;
+color:#FF4A4A;
+}
+.themeFooterArea .zs-highlight-box h6 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:16px;
+color:#FF4A4A;
+}
+.themeFooterArea .zs-highlight-box a {
+ text-decoration:none;
+ color:#FFFF88;
+}
+.themeFooterArea .zs-highlight-box a:hover {
+text-decoration:none;
+color:#FFFF88;
+}
+.themeFooterArea .zs-highlight-box hr {
+    border-top-color: #7BBE00;
+}
+.themeFooterArea .zs-highlight-box th {
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:14px;
+ color:#ADFF99;
+ background:#6BCC36;
+ border-width:1px;
+ border-style:solid;
+ border-color:#78E43D;
+ padding:10px;
+    font-weight: normal;
+}
+.themeFooterArea .zs-highlight-box td {
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:14px;
+ color:#777777;
+ background:#ffffff;
+ border-width:1px;
+ border-style:solid;
+ border-color:#EBEBEB;
+ padding:10px;
+}
+.themeFooterArea .zs-highlight-box form ul {
+    border-color: #7dda4a;
+}
+.themeFooterArea .zs-highlight-box h3.newsletter-heading {
+    color:#FF4A4A;
+}
+.themeFooterArea .zs-highlight-box .newsletter-desc {
+    color:#4E7727;
+}
+/* ------------------------------------ TEXT HIGHLIGHT CSS ------------------------------------------------*/
+.themeFooterArea .zs-text-light-color {
+color:#C4C4C4
+}
+.themeFooterArea .zs-text-highlight-color {
+color:#333333
+}
+.themeFooterArea .zs-highlight-box .zs-text-light-color {
+color:#C4C4C4
+}
+.themeFooterArea .zs-highlight-box .zs-text-highlight-color {
+color:#FF4A4A
+}
+/*--------------------- THEME FOOTER TABS ACCORDION AREA CSS ---------------------*/
+.themeFooterArea .zs-tabs ul, .themeFooterArea .zs-highlight-box .zs-tabs ul {
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 3px solid #C4324A;
+}
+.themeFooterArea .zs-tabs ul li, .themeFooterArea .zs-highlight-box .zs-tabs ul li {
+    float: left;
+    margin: 0;
+    padding: 0px;
+}
+.themeFooterArea .zs-tabs ul li div, .themeFooterArea .zs-highlight-box .zs-tabs ul li div {
+    padding: 0 20px;
+    position: relative;
+    color: #777777;
+    line-height: 3.2;
+    cursor: pointer;
+}
+.themeFooterArea .zs-tabs ul li.selected, .themeFooterArea .zs-highlight-box .zs-tabs ul li.selected {
+    background: #C4324A;
+    border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+}
+.themeFooterArea .zs-tabs ul li.selected div, .themeFooterArea .zs-highlight-box .zs-tabs ul li.selected div {
+    color: #ffffff;
+}
+.themeFooterArea .zs-tabs-accordion-content, .themeFooterArea .zs-highlight-box .zs-tabs-accordion-content {
+    background: #F8F8F8;
+    padding: 15px;
+    display: none;
+    color: #777777;
+    margin-bottom: 2px;
+    min-height: 70px;
+    height: auto !important;
+    height: 70px;
+}
+.themeFooterArea .zs-accordion, .themeFooterArea .zs-highlight-box .zs-accordion {
+    background: #ffffff;
+    color: #777777;
+    padding: 12px;
+    cursor: pointer;
+    display: none;
+    position: relative;
+    margin-bottom: 2px;
+}
+.themeFooterArea .zs-accordion.selected, .themeFooterArea .zs-highlight-box .zs-accordion.selected {
+    background: #C4324A;
+    color: #ffffff;
+}
+/*---------------------------------- THEME FOOTER AREA HIGHLIGHT BOX TABS ACCORDION AREA CSS START ------------------------------------*/
+.themeFooterArea .zs-highlight-box .zs-tabs ul li div {
+    color: #ffffff;
+}
+.themeFooterArea .zs-highlight-box .zs-tabs-accordion-content h1, .themeFooterArea .zs-highlight-box .zs-tabs-accordion-content h2, .themeFooterArea .zs-highlight-box .zs-tabs-accordion-content h3, .themeFooterArea .zs-highlight-box .zs-tabs-accordion-content h4, .themeFooterArea .zs-highlight-box .zs-tabs-accordion-content h5, .themeFooterArea .zs-highlight-box .zs-tabs-accordion-content h6 {
+    color: #333333;
+}
+.themeFooterArea .zs-highlight-box .zs-tabs-accordion-content a, .themeFooterArea .zs-highlight-box .zs-tabs-accordion-content a:hover {
+    color: #cd586b;
+}
+.themeFooterArea .zs-highlight-box .zs-tabs-accordion-content hr {
+    border-top: 1px solid #efefef;
+}
+.themeFooterArea .zs-highlight-box .zs-tabs-accordion-content th {
+    background: #ffffff;
+    border-color: #e6e6e6;
+    color: #777777;
+}
+.themeFooterArea .zs-highlight-box .zs-tabs-accordion-content td {
+    background: transparent;
+    border-color: #e6e6e6;
+    color: #777777;
+}
+.themeFooterArea .zs-highlight-box .zs-tabs-accordion-content form li span input[type="text"], .themeFooterArea .zs-highlight-box .zs-tabs-accordion-content form li span textarea, .themeFooterArea .zs-highlight-box .zs-tabs-accordion-content form li span select {
+    background: #ffffff;
+    color: #777777;
+    width: 240px;
+}
+.themeFooterArea .zs-highlight-box .zs-tabs-accordion-content form li span select {
+    width: 253px;
+}
+.themeFooterArea .zs-highlight-box .zs-tabs-accordion-content form li input[type="reset"] {
+    background: #E7E7E7;
+}
+/* -------------------------------- THEME FORM AREA CSS -------------------------------- */
+form ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style-image: none;
+}
+form li {
+    overflow: hidden;
+    padding: 6px 0;
+    margin: 0;
+}
+form ul li label, form ul li div {
+    width: auto;
+    float: left;
+}
+form ul li label {
+    width: 175px;
+    text-align: right;
+    padding-right: 20px;
+}
+form li div span {
+    display: block;
+}
+form li span input, form li span label {
+    float: none;
+    width: auto;
+    margin: 8px 4px 0;
+    font-weight: normal;
+    padding: 5px 5px;
+}
+form li span input[type=text], form li span textarea, form li span select {
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:14px;
+ color:#777777;
+    width: 275px;
+    background: #f7f7f7;
+    border: 0px solid;
+    border-top: 1px solid #eaeaea;
+    float: left;
+    padding: 8px;
+    resize: none;
+    margin: 0px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+form li span select {
+    width: 293px;
+}
+form li span textarea {
+    height: 80px;
+    overflow: auto;
+}
+form .dateinvoker {
+    background: url(images/datePickerIcn.png) 0 0 no-repeat;
+    width: 16px;
+    height: 15px;
+    border: none;
+    vertical-align: middle;
+    margin-top: 10px;
+    outline: none;
+    padding: 0px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -o-border-radius: 0;
+}
+form li input[type=submit], form li input[type=reset], button {
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    border: 0 solid;
+    background: #cd586b;
+    padding: 6px 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+form li input[type=reset] {
+    background: #f7f7f7;
+    color: #777777;
+}
+/* ------------------------------------ THEME  SLIDESHOW AREA CSS ------------------------------------------------*/
+.zs-slideshow-left-arrow {
+    background: url(images/zs-slideshow-left-arrow.png) left top no-repeat;
+    cursor: pointer;
+    height: 38px;
+    left: 0px;
+    margin-top: -19px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    transition: opacity 500ms ease 0s;
+    -webkit-transition: opacity 500ms ease 0s;
+    -moz-transition: opacity 500ms ease 0s;
+    -o-transition: opacity 500ms ease 0s;
+    width: 31px;
+    z-index: 150;
+}
+.zs-slideshow-right-arrow {
+    background: url(images/zs-slideshow-right-arrow.png) left top no-repeat;
+    cursor: pointer;
+    height: 38px;
+    right: 0px;
+    margin-top: -19px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    transition: opacity 500ms ease 0s;
+    -webkit-transition: opacity 500ms ease 0s;
+    -moz-transition: opacity 500ms ease 0s;
+    -o-transition: opacity 500ms ease 0s;
+    width: 31px;
+    z-index: 150;
+    left: auto;
+}
+.themeSlideshowOuterContainer {
+    bottom: 10px;
+    opacity: 0;
+    position: absolute;
+    transition: opacity 500ms ease 0s;
+    z-index: 150;
+    text-align: center;
+}
+.themeSlideshowInnerContainer {
+    background: transparent;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -o-border-radius: 0;
+    padding: 0;
+}
+.zs-slideshow-control-active {
+    background: url(images/zs-slideshow-control-active.png) no-repeat left top;
+    cursor: pointer;
+    display: inline-block;
+    height: 13px;
+    margin: 0 0 0 7px;
+    width: 13px;
+}
+.zs-slideshow-control {
+    background: url(images/zs-slideshow-control.png) no-repeat left top;
+    cursor: pointer;
+    display: inline-block;
+    height: 13px;
+    margin: 0 0 0 7px;
+    width: 13px;
+}
+/* -------------------------------- THEME HIGHLIGHT BOX AREA CSS -------------------------------- */
+.zs-highlight-box {
+ background-color: #1f95d2;
+ background-image: none;
+ background-image: none, -moz-linear-gradient(bottom, transparent, transparent);
+ background-image: none, -webkit-linear-gradient(bottom, transparent, transparent);
+ background-image: none, -o-linear-gradient(bottom, transparent, transparent);
+ background-position: top left;
+ background-repeat: repeat;
+ box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.20), 0px 0px 0px 5px #FFFFFF inset;
+ -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.20), 0px 0px 0px 5px #FFFFFF inset;
+ -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.20), 0px 0px 0px 5px #FFFFFF inset;
+ -o-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.20), 0px 0px 0px 5px #FFFFFF inset;
+ border-width: 0;
+ border-style:none;
+ border-color:transparent;
+ border-radius: 0;
+ -moz-border-radius:0;
+ -webkit-border-radius:0;
+ -o-border-radius:0;
+ padding: 10px;
+ margin: 5px;
+    min-height: 200px;
+font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:14px;
+ color:#004A70;
+}
+.zs-highlight-box h1 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:30px;
+color:#FFFFFF;
+}
+.zs-highlight-box h2 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:28px;
+color:#FFFFFF;
+}
+.zs-highlight-box h3 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:24px;
+color:#FFFFFF;
+}
+.zs-highlight-box h4 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:20px;
+color:#FFFFFF;
+}
+.zs-highlight-box h5 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:18px;
+color:#FFFFFF;
+}
+.zs-highlight-box h6 {
+font-family:'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size:16px;
+color:#FFFFFF;
+}
+.zs-highlight-box a {
+ text-decoration:none;
+ color:#CAE600;
+}
+.zs-highlight-box a:hover {
+text-decoration:none;
+color:#CAE600;
+}
+.zs-highlight-box th {
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:14px;
+ color:#D3F0FF;
+ background:#2AAEF3;
+ border-width:1px;
+ border-style:solid;
+ border-color:#3ABCFF;
+ padding:10px;
+    font-weight: normal;
+}
+.zs-highlight-box td {
+ font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:14px;
+ color:#777777;
+ background:#ffffff;
+ border-width:1px;
+ border-style:solid;
+ border-color:#EBEBEB;
+ padding:10px;
+}
+.zs-highlight-box hr {
+    border-top-color: #177BAF;
+}
+.zs-highlight-box form li span input[type=text], .zs-highlight-box form li span textarea, .zs-highlight-box form li span select {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.zs-highlight-box h3.newsletter-heading {
+    color:#ffffff;
+}
+.zs-highlight-box .newsletter-desc {
+    color:#004A70;
+}
+/* ------------------------------------ TEXT HIGHLIGHT CSS ------------------------------------------------*/
+.zs-text-light-color {
+color:#C4C4C4
+}
+.zs-text-highlight-color {
+color:#333333
+}
+.zs-highlight-box .zs-text-light-color {
+color:#C4C4C4
+}
+.zs-highlight-box .zs-text-highlight-color {
+color:#FFFFFF
+}
+/*----------------------------------------------------- THEME TABS ACCORDION AREA CSS START -----------------------------------------------------*/
+.zs-tabs ul, .zs-highlight-box .zs-tabs ul {
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 3px solid #C4324A;
+}
+.zs-tabs ul li, .zs-highlight-box .zs-tabs ul li {
+    float: left;
+    margin: 0;
+    padding: 0px;
+}
+.zs-tabs ul li div, .zs-highlight-box .zs-tabs ul li div {
+    padding: 0 20px;
+    position: relative;
+    color: #777777;
+    line-height: 3.2;
+    cursor: pointer;
+}
+.zs-tabs ul li.selected, .zs-highlight-box .zs-tabs ul li.selected {
+    background: #C4324A;
+    border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+}
+.zs-tabs ul li.selected div, .zs-highlight-box .zs-tabs ul li.selected div {
+    color: #ffffff;
+}
+.zs-tabs-accordion-content, .zs-highlight-box .zs-tabs-accordion-content {
+    background: #F8F8F8;
+    padding: 15px;
+    display: none;
+    color: #777777;
+    margin-bottom: 2px;
+    min-height: 70px;
+    height: auto !important;
+    height: 70px;
+}
+.zs-accordion, .zs-highlight-box .zs-accordion {
+    background: #ffffff;
+    color: #777777;
+    padding: 12px;
+    cursor: pointer;
+    display: none;
+    position: relative;
+    margin-bottom: 2px;
+}
+.zs-accordion.selected, .zs-highlight-box .zs-accordion.selected {
+    background: #C4324A;
+    color: #ffffff;
+}
+.zs-tabs-accordion-content .newsletter-input-field {
+    background:#ffffff;
+}
+/*---------------------------------- THEME HIGHLIGHT BOX TABS ACCORDION AREA CSS START ------------------------------------*/
+.zs-highlight-box .zs-tabs ul li div {
+    color: #ffffff;
+}
+.zs-highlight-box .zs-tabs-accordion-content h1, .zs-highlight-box .zs-tabs-accordion-content h2, .zs-highlight-box .zs-tabs-accordion-content h3, .zs-highlight-box .zs-tabs-accordion-content h4, .zs-highlight-box .zs-tabs-accordion-content h5, .zs-highlight-box .zs-tabs-accordion-content h6 {
+    color: #333333;
+}
+.zs-highlight-box .zs-tabs-accordion-content a, .zs-highlight-box .zs-tabs-accordion-content a:hover {
+    color: #cd586b;
+}
+.zs-highlight-box .zs-tabs-accordion-content hr {
+    border-top: 1px solid #efefef;
+}
+.zs-highlight-box .zs-tabs-accordion-content th {
+    background: #ffffff;
+    border-color: #e6e6e6;
+    color: #777777;
+}
+.zs-highlight-box .zs-tabs-accordion-content td {
+    background: transparent;
+    border-color: #e6e6e6;
+    color: #777777;
+}
+.zs-highlight-box .zs-tabs-accordion-content form li span input[type="text"], .zs-highlight-box .zs-tabs-accordion-content form li span textarea, .zs-highlight-box .zs-tabs-accordion-content form li span select {
+    background: #ffffff;
+    color: #777777;
+    width: 240px;
+}
+.zs-highlight-box .zs-tabs-accordion-content form li span select {
+    width: 253px;
+}
+.zs-highlight-box .zs-tabs-accordion-content form li input[type="reset"] {
+    background: #E7E7E7;
+}
+/***************************** START SOCIAL ICONS SPRITE *****************************/
+.themeSocialIconContainer {
+    float: right;
+    text-align: right;
+    margin: 4px 10px 0;
+}
+.zs-socialicon-email, .zs-socialicon-facebook, .zs-socialicon-flickr, .zs-socialicon-googleplus, .zs-socialicon-linkedin, .zs-socialicon-pinterest, .zs-socialicon-rss, .zs-socialicon-twitter, .zs-socialicon-youtube, .zs-socialicon-medium, .zs-socialicon-instagram {
+    background: url('images/zs-socialicon-sprite.png') no-repeat top left;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin: 0 3px;
+}
+.zs-socialicon-email {
+    background-position: 0 -0px;
+}
+.zs-socialicon-facebook {
+    background-position: 0 -24px;
+}
+.zs-socialicon-flickr {
+    background-position: 0 -48px;
+}
+.zs-socialicon-googleplus {
+    background-position: 0 -72px;
+}
+.zs-socialicon-linkedin {
+    background-position: 0 -96px;
+}
+.zs-socialicon-pinterest {
+    background-position: 0 -120px;
+}
+.zs-socialicon-rss {
+    background-position: 0 -144px;
+}
+.zs-socialicon-twitter {
+    background-position: 0 -168px;
+}
+.zs-socialicon-youtube {
+    background-position: 0 -192px;
+}
+.zs-socialicon-medium {
+    background-position: 0 -216px;
+}
+.zs-socialicon-instagram {
+    background-position: 0 -240px;
+}
+/*****************************   END: SOCIAL ICONS SPRITE *****************************/
+
+.newsletter-container {
+background: transparent;
+    padding: 10px
+}
+h3.newsletter-heading {
+    margin-bottom: 10px;
+font-family: 'Josefin Slab', Georgia, "Times New Roman", Times, serif;
+font-size: 26px;
+color: #333333;
+}
+.newsletter-desc {
+    margin-bottom: 25px;
+font-family: 'Lato', Verdana, Geneva, sans-serif;
+font-size: 14px;
+color: #777777;
+}
+.newsletter-input-field {
+background: #F7F7F7;
+border-width: 1px 0 0;
+border-color: #EAEAEA;
+color:#777777;
+font-family: 'Lato', Verdana, Geneva, sans-serif;
+font-size: 14px;
+    border-style: solid;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    width: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    vertical-align:top;
+}
+button.newsletter-button {
+background: #cd586b;
+border-width: 0;
+border-color: transparent;
+color:#ffffff;
+font-family: 'Lato', Verdana, Geneva, sans-serif;
+font-size: 14px;
+border-radius:0px;
+-webkit-border-radius:0px;
+-moz-border-radius:0px;
+-o-border-radius:0px;
+    border-style: solid;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: 400;
+    box-sizing: border-box;
+    margin-right: 0;
+}
+.newsletter-layout-1 .newsletter-form, .newsletter-layout-2 .newsletter-form {
+    margin: 0 auto;
+    text-align: center;
+}
+.newsletter-layout-3 .newsletter-form {
+    width: 200px;
+    margin: 0 auto;
+    text-align: right;
+}
+.newsletter-layout-3 button {
+    text-align: right;
+}
+.newsletter-form input[type="text"]::-moz-placeholder {
+    color:#777777;
+  font-size:90%;
+  line-height:normal;
+}
+.newsletter-form  input[type="text"]::-webkit-input-placeholder{
+    color:#777777;
+  font-size:85%;
+  line-height:normal;
+}
+.newsletter-form  input[type="text"]:-ms-input-placeholder {
+    color:#777777;
+  font-size:90%;
+  line-height:normal;
+}
+/*----------------------------------- MEMBERSHIP PORTAL AREA CSS  -----------------------------------------------*/
+.mp-container {
+    height: 35px;
+    background:#f2f2f2;
+    border-bottom:1px solid #ffffff;
+}
+.member-signin {
+    float: right;
+}
+.member-signin > ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.member-signin li {
+    display: inline-block;
+    line-height: 35px;
+    margin-left: 20px;
+    padding: 0;
+    position:relative;
+}
+.member-signin li a {
+    font-family:'Lato', Verdana, Geneva, sans-serif;
+ font-size:14px;
+    text-decoration:none;
+    color:#ca353b;
+    display:block;
+}
+.member-signin li a:hover {
+    text-decoration:none;
+    color:#ca353b;
+}
+.member-signin li:first-child {
+    margin-left: 0;
+}
+.member-signin li:last-child:before {
+    color:#ca353b;
+    content: "|";
+    position: absolute;
+    top: 0;
+    left:-12px;
+}
+ 
